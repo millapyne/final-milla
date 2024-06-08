@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTO OR IT DIDNT HAPPEN</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            min-height: 100vh; /* Ensure body fills the entire viewport */
+            position: relative; /* Needed for footer positioning */
+        }
+
+        header {
+            background-color: #fea0d4;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 28px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #b42a75;
+        }
+
+        .hero {
+            background-image: url(https://i.pinimg.com/736x/fe/32/b7/fe32b78235802a796be54e2500dc5cca.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #fea0d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #b42a75;
+        }
+
+        .featured {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .photographers {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .photographer {
+            margin: 20px;
+        }
+
+        .photographer img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #fea0d4;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed; /* Footer fixed to the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PHOTO OR IT DIDNT HAPPEN</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="HOW.html">HOW</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="WHY.html">WHY</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Explore Inspiring Photography</h2>
+        <p>Discover captivating images from talented photographers around the world.</p>
+        <a href="explore.html" class="btn">Explore Now</a>
+    </section>
+
+    <section class="featured">
+        <h2>Featured Photographers</h2>
+        <div class="photographers">
+            <!-- Featured photographers' profiles -->
+            <div class="photographer">
+                <img src="https://i.pinimg.com/736x/c3/d5/b8/c3d5b86304f8ce72d5019b3f5a8a6818.jpg" alt="Photographer 1">
+                <h3>Milla Pyne</h3>
+            </div>
+            <div class="photographer">
+                <img src="https://i.pinimg.com/474x/a1/e1/a7/a1e1a7594983fa64af815706685bf5ec.jpg" alt="Photographer 2">
+                <h3>Luca Robinson</h3>
+            </div>
+            <!-- Add more photographers as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 PHOTO OR IT DIDNT HAPPEN. All rights reserved.</p>
+    </footer>
+</body>
+</html>
